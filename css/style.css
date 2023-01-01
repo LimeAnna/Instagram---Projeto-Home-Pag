@@ -56,6 +56,7 @@ nav ion-icon {
 .story img {
     width: 56px;
     height: 56px;
+    border-radius: 50%;
 }
 
 .story span {
@@ -65,8 +66,14 @@ nav ion-icon {
 
 /* posts */
 
+.posts {
+    margin-bottom: 60px;
+}
+
 .post {
     background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 60px;
 }
 
 .post_titulo {
@@ -90,8 +97,73 @@ nav ion-icon {
     width: 32px;
     height: 32px;
     margin: 0 10px;
+    border-radius: 50%;
 }
 
 .post_titulo ion-icon {
     margin-right: 0 10px;
+}
+
+.post_imagem {
+    width: 100%;
+}
+
+.post_botoes {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.post_botoes ion-icon {
+    margin-top: 5px;
+    padding-right: 10px;
+    font-size: 22px;
+}
+
+.post_curtidas {
+    margin: 5px 10px;
+    align-items: center;
+    display: flex;
+}
+
+.post_curtidas img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.post_curtidas span {
+    font-size: 14px;
+    font-weight: 500px;
+    padding: 0 5px;
+}
+
+.post_legenda {
+    font-size: 14px;
+    font-weight: 500px;
+    margin: 0 10px;
+    margin-bottom: 5px;
+}
+
+.post_legenda b {
+    font-weight: 700;
+}
+
+.post_legenda_comentarios {
+    margin-top: 5px;
+    font-weight: 500;
+    color: darkgray;
+}
+
+footer {
+    font-size: 22px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 54px ;
 }
